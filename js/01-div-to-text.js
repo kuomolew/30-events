@@ -33,7 +33,7 @@ function toDiv () {
     switcher = 'div';
 }
 
-
+console.log('div to text');
 
 
 

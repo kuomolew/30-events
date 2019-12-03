@@ -1,0 +1,32 @@
+.resizable {
+    width: 600px;
+    margin-left: 100px;
+    background-color: antiquewhite;
+    padding: 50px;
+    border: 1px solid lightgray;
+    font-family: sans-serif;
+    position: relative;
+    box-sizing: border-box;
+}
+/* textarea {
+    display: block;
+    font-size: 18px;
+    padding-top: 600px;
+}
+.hidden {
+    display: none;
+} */
+p {
+    font-size: 18px;
+}
+.corner {
+    width: 10px;
+    height: 10px;
+    background-color: antiquewhite;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    cursor: pointer;
+}
