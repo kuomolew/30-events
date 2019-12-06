@@ -8,20 +8,12 @@
     position: relative;
     box-sizing: border-box;
 }
-/* textarea {
-    display: block;
-    font-size: 18px;
-    padding-top: 600px;
-}
-.hidden {
-    display: none;
-} */
 p {
     font-size: 18px;
 }
 .corner {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background-color: antiquewhite;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
