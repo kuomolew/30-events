@@ -2,7 +2,7 @@
 
 $(document).ready( function () {
     let pressed = false;
-    $('body').on('click', '.corner', (e) => {
+    $('body').on('mouseup', '.corner', () => {
         pressed = false;
     });  
     $('body').on('mousedown', '.corner', (e) => {
@@ -12,9 +12,9 @@ $(document).ready( function () {
         let y = e.pageY; 
         pressed = true;
         $(document).mousemove(function(event){
-            $('body').on('mouseup', () => {
-                pressed = false;
-            });
+//             $('body').on('mouseup', () => {
+//                 pressed = false;
+//             });
             if (pressed) {
                 let width = initialWidth + (event.pageX - x);
                 let height = initialHeight + (event.pageY - y);
